@@ -112,6 +112,7 @@ p {
 .site-nav .lists:not(:last-child) {
   margin-right: 50px;
 }
+
 .contacts-box .list {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -130,7 +131,7 @@ p {
   padding-right: 15px;
   background-color: rgba(47, 48, 58, 0.4);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/bcg-hero.png);
+    url(../images/hero-bcg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   height: 600px;
@@ -179,16 +180,16 @@ p {
   background-repeat: no-repeat;
 }
 .icon-antenna::before {
-  background-image: url(../images/antenna.png);
+  background-image: url(../images/antenna.svg);
 }
 .icon-clock::before {
-  background-image: url(../images/clock.png);
+  background-image: url(../images/clock.svg);
 }
 .icon-laptop::before {
-  background-image: url(../images/diagram.png);
+  background-image: url(../images/diagram.svg);
 }
 .icon-space::before {
-  background-image: url(../images/astronaut.png);
+  background-image: url(../images/astronaut.svg);
 }
 .thesis-item:not(:first-child) {
   margin-left: 30px;
