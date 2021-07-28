@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: roboto, sans-serif;
-  color: #757575;
+  color: var(--secondary-text-color);
   letter-spacing: 0.03em;
 }
 :root {
@@ -112,13 +112,33 @@ p {
 .site-nav .lists:not(:last-child) {
   margin-right: 50px;
 }
+.envelope-icon {
+  margin-right: 10px;
+  fill: var(--secondary-text-color);
+  width: 16px;
+  height: 12px;
+}
+.smartphone-icon {
+  margin-right: 10px;
+  fill: var(--secondary-text-color);
+  width: 10px;
+  height: 16px;
+}
+.contacts-box .list:hover .envelope-icon,
+.contacts-box .list:focus .envelope-icon,
+.contacts-box .list:hover .smartphone-icon,
+.contacts-box .list:focus .smartphone-icon {
+  fill: var(--accent-color);
+}
 
 .contacts-box .list {
+  display: flex;
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   text-decoration: none;
+  align-items: center;
 }
 .contacts-box .list:hover,
 .contacts-box .list:focus {
@@ -168,28 +188,6 @@ p {
 }
 .thesis-items {
   display: flex;
-}
-.thesis-item::before {
-  content: '';
-  display: block;
-  height: 120px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.icon-antenna::before {
-  background-image: url(../images/antenna.svg);
-}
-.icon-clock::before {
-  background-image: url(../images/clock.svg);
-}
-.icon-laptop::before {
-  background-image: url(../images/diagram.svg);
-}
-.icon-space::before {
-  background-image: url(../images/astronaut.svg);
 }
 .thesis-item:not(:first-child) {
   margin-left: 30px;
@@ -404,4 +402,9 @@ p {
 }
 .contacts {
   margin-top: 9px;
+}
+.test {
+  display: block;
+  width: 70px;
+  height: 70px;
 }
