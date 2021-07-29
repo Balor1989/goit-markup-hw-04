@@ -474,6 +474,30 @@ a:hover .client-icon {
 .border-boxes .client-link:focus .client-icon {
   fill: var(--accent-color);
 }
+.one-icon {
+  width: 41px;
+  height: 47px;
+}
+.two-icon {
+  width: 40px;
+  height: 52px;
+}
+.three-icon {
+  width: 43px;
+  height: 41px;
+}
+.four-icon {
+  width: 84px;
+  height: 41px;
+}
+.five-icon {
+  width: 62px;
+  height: 45px;
+}
+.six-icon {
+  width: 94px;
+  height: 44px;
+}
 /* Footer style */
 .footer-section {
   display: flex;
