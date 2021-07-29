@@ -331,6 +331,9 @@ p {
   border-radius: 6px;
   padding: 9px 31px;
   border: solid 1px #2196f3;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .portfolio-button {
   font-family: roboto, sans-serif;
@@ -418,6 +421,59 @@ p {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+.our-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-section {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.clients-head {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.border-boxes {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+}
+.border-boxes a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+}
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+.client-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+.border-boxes:hover {
+  border: 1px solid var(--accent-color);
+}
+a:hover .client-icon {
+  fill: var(--accent-color);
+}
+.border-boxes .client-link:focus .client-icon {
+  fill: var(--accent-color);
+}
 /* Footer style */
 .footer-section {
   display: flex;
@@ -469,13 +525,16 @@ p {
 .footer-linkbox {
   margin-left: 70px;
 }
+
 .join-us {
+  margin-bottom: 0;
   color: var(--footer-text-color);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.43;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .social-footerbox {
   display: flex;
