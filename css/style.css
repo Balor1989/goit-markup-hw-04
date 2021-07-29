@@ -172,6 +172,17 @@ p {
   line-height: 1.4;
   max-width: 600px;
 }
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+.thesis-icon {
+  width: 70px;
+  height: 70px;
+}
 .thesis-section {
   padding-top: 94px;
 }
@@ -182,10 +193,7 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
-.team-section {
-  display: flex;
-  justify-content: space-between;
-}
+
 .thesis-items {
   display: flex;
 }
@@ -227,6 +235,10 @@ p {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.team-section {
+  display: flex;
+  justify-content: space-between;
 }
 .secondary {
   margin: 0;
