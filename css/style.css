@@ -177,6 +177,7 @@ p {
   align-items: center;
   justify-content: center;
   height: 120px;
+  margin-bottom: 30px;
   background-color: #f5f4fa;
 }
 .thesis-icon {
@@ -398,11 +399,13 @@ p {
 }
 /* Footer style */
 .footer-section {
+  display: flex;
   background-color: var(--footer-bgc);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .container-footerbox {
+  display: flex;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -442,8 +445,41 @@ p {
 .contacts {
   margin-top: 9px;
 }
-.test {
-  display: block;
-  width: 70px;
-  height: 70px;
+.footer-linkbox {
+  margin-left: 70px;
+}
+.join-us {
+  color: var(--footer-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.social-footerbox {
+  display: flex;
+  width: 206px;
+  justify-content: space-between;
+}
+.social-footerlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.social-footerlinks:hover {
+  background-color: #2196f3;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.social-footericon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+.social-footerlinks:hover .social-footericon {
+  fill: #ffffff;
 }
